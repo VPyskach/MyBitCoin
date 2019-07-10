@@ -16,14 +16,26 @@ import java.util.Objects;
 public class BuyBTCFragment3 extends Fragment{
 
 
-    private String TITLE;
-
     public static BuyBTCFragment3 newInstance() {
-
         return new BuyBTCFragment3();
     }
+
+    private String TITLE;
     private OnBuyBTCFragment3Listener onBuyBTCFragment3Listener;
     private Button buttonGoToHistory;
+
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        if (context instanceof OnBuyBTCFragment3Listener) {
+            onBuyBTCFragment3Listener = (OnBuyBTCFragment3Listener) context;
+        } else {
+            throw new RuntimeException(context.toString()
+                    + " must implement OnFragmentInteractionListener");
+        }
+        TITLE = context.getResources().getString(R.string.payment_processing);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -41,18 +53,6 @@ public class BuyBTCFragment3 extends Fragment{
             onBuyBTCFragment3Listener.goToHistory();
         }
     };
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        if (context instanceof OnBuyBTCFragment3Listener) {
-            onBuyBTCFragment3Listener = (OnBuyBTCFragment3Listener) context;
-        } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
-        }
-        TITLE = context.getResources().getString(R.string.payment_processing);
-    }
 
     @Override
     public void onDetach() {

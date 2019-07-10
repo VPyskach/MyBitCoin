@@ -18,6 +18,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/textAvailableReserveLite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimaryLight"
@@ -37,7 +38,7 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/editBuyBtc"
+                android:id="@+id/editBuyBtcLite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -63,7 +64,7 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/editAddress"
+                android:id="@+id/editAddressLite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -78,7 +79,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/textCourceExchange"
+                android:id="@+id/textCourseExchangeLite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="20dp"
@@ -88,7 +89,7 @@
                 android:textColor="@android:color/black"
                 android:textSize="18sp" />
             <TextView
-                android:id="@+id/textToPay"
+                android:id="@+id/textToPayLite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="20dp"

@@ -37,4 +37,12 @@
     <string name="set_address">Укажите адрес куда отправить BTC</string>
     <string name="purpose">Назначение</string>
     <string name="go_to_pay">Перейти к оплате</string>
+    <string name="i_paid">Я оплатил</string>
+    <string name="confirm_this">Затем подтвердите это нажатием кнопки</string>
+    <string name="with_comment">обязательно с комментарием</string>
+    <string name="send">Отправьте</string>
+    <string name="to_wallet">руб на кошелек платежного сервиса Qiwi</string>
+    <string name="to_pay">К оплате:</string>
+    <string name="you_buy">Вы покупаете</string>
+    <string name="available_reserve">Доступный резерв:</string>
 </resources>
