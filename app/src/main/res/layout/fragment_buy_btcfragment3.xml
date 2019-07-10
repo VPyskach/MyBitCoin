@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.test.mybitcoin.buy.BuyBTCFragment3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:text="Мы успешно получили Вашу оплату. Ожидайте, в самое ближайшее время вы получите биткойны на указанный Вами адрес." />
+
+    <Button
+        android:id="@+id/buttonGoToHistory"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_background"
+        android:text="Перейти в историю"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp"/>
+
+</LinearLayout>

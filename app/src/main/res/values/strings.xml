@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyBitCoin</string>
+    <string name="label">myBiTCoin</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_fragment">И нет сомнений, что диаграммы связей и по сей день остаются уделом либералов, которые жаждут быть
+        функционально разнесены на независимые элементы. Современные технологии достигли такого уровня, что внедрение современных
+        методик создает предпосылки для распределения внутренних резервов и ресурсов. Сложно сказать, почему явные признаки победы
+        институциализации своевременно верифицированы.</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="your_phone_number">Ваш номер телефона</string>
+    <string name="i_have_account">У меня есть аккаунт</string>
+    <string name="confirm_number">Подтверждение номера</string>
+    <string name="we_send_sms">Мы выслали на указанный Вами номер SMS код подтверждения.</string>
+    <string name="confirm_code">Код подтверждения</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="footer_text">© myBiTCoin 2018</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_office">Кабинет</string>
+    <string name="menu_history">История</string>
+    <string name="menu_about">О приложении</string>
+    <string name="reserve">Резерв</string>
+    <string name="course">Курс</string>
+    <string name="office">Кабинет</string>
+    <string name="status_positive">Обработано</string>
+    <string name="status_negative">Отклонена</string>
+    <string name="status_neitral">В обработке</string>
+    <string name="date">Дата:\u0020</string>
+    <string name="number">Номер:\u0020</string>
+    <string name="received">Получено:\u0020</string>
+    <string name="cost">Стоимость:\u0020</string>
+    <string name="buy_BTC">Купить ВТС</string>
+    <string name="payment_processing">Обработка платежа</string>
+    <string name="buy_btc_info">Сейчас вы будете перенаправлены на сайт платежной системы, где нужно будет ввести данные своей платежной карты и совершить платеж.</string>
+    <string name="set_address">Укажите адрес куда отправить BTC</string>
+    <string name="purpose">Назначение</string>
+    <string name="go_to_pay">Перейти к оплате</string>
+</resources>
